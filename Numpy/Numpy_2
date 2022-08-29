@@ -1,0 +1,24 @@
+shape_of_arr_2D = np.shape(twod_array)
+print(shape_of_arr_2D)
+
+
+
+arr_3D = np.array([[[1, 2, 3], [1, 2, 3], [1, 2, 3]], [[1, 2, 3], [1, 2, 3], [1, 2, 3]], [[1, 2, 3], [1, 2, 3], [1, 2, 3]]]) # create 3D array
+print("Three dimensional NumPy Array : \n", arr_3D)
+ 
+shape_of_arr_3D = np.shape(arr_3D) 
+print("Shape of arr_3D = ", shape_of_arr_3D) 
+
+
+
+
+student_info = np.array([['id', 'name', 'percentage', 'pass or fail'], 
+                     [101, 'Ajay', 80, 'pass'], 
+                     [102, 'John', 75, 'pass'],
+                     [103, 'Abraham',33, 'fail'],
+                     [104, 'Oprah',52, 'pass']
+                    ])
+
+2
+shape_of_student_info = np.shape(student_info)
+print("Shape of student information array = ", shape_of_student_info)
