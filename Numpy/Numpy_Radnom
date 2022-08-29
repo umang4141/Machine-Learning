@@ -1,0 +1,26 @@
+rd_num = np.random.random(1)
+rd_2D_array =  np.random.random((3,3))
+print(rd_num)
+print(rd_2D_array)
+
+
+
+rd_no = np.random.randint(1,4)
+rd_2D_arr = np.random.randint(1,4, (4,4))
+rd_3D_arr = np.random.randint(1,4, (2,4,4))
+ 
+ 
+ 
+np.random.seed(10)
+rd_3D_arr = np.random.randint(1,4, (2,4,4))
+print(rd_3D_arr)
+
+
+
+for i in range(20):
+    print(np.random.choice(x))
+ 
+ 
+ x_permute = np.random.permutation(x)
+print(x_permute)
+ 
